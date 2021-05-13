@@ -27,21 +27,141 @@ public class Calculadora extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jButton25 = new javax.swing.JButton();
+        jScrollBar1 = new javax.swing.JScrollBar();
         jPanel1 = new javax.swing.JPanel();
+        txtOperacion = new javax.swing.JLabel();
+        txtResultado = new javax.swing.JLabel();
+        jPanel2 = new javax.swing.JPanel();
         jButton2 = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
+        jButton5 = new javax.swing.JButton();
+        jButton6 = new javax.swing.JButton();
+        jButton7 = new javax.swing.JButton();
+        jButton9 = new javax.swing.JButton();
+        jButton11 = new javax.swing.JButton();
+        jButton13 = new javax.swing.JButton();
+        jButton21 = new javax.swing.JButton();
+        jButton22 = new javax.swing.JButton();
+        jButton23 = new javax.swing.JButton();
+        jButton24 = new javax.swing.JButton();
+
+        jButton25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1.png"))); // NOI18N
+        jButton25.setText("jButton1");
+        jButton25.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1.png"))); // NOI18N
+        jButton25.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1_presionar.png"))); // NOI18N
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jPanel1.setBackground(new java.awt.Color(220, 220, 222));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        txtOperacion.setBackground(new java.awt.Color(220, 220, 222));
+        txtOperacion.setFont(new java.awt.Font("Gill Sans Ultra Bold", 1, 18)); // NOI18N
+        txtOperacion.setForeground(new java.awt.Color(0, 9, 41));
+        txtOperacion.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        txtOperacion.setText("5x2");
+        jPanel1.add(txtOperacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 20, 340, 40));
+
+        txtResultado.setFont(new java.awt.Font("Gill Sans Ultra Bold Condensed", 1, 36)); // NOI18N
+        txtResultado.setForeground(new java.awt.Color(72, 77, 99));
+        txtResultado.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        txtResultado.setText("30");
+        jPanel1.add(txtResultado, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 70, 340, 60));
+
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 130));
 
-        jButton2.setText("jButton2");
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 140, -1, -1));
+        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton1.setText("jButton1");
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 140, -1, -1));
+        jButton2.setFont(new java.awt.Font("Gill Sans Ultra Bold Condensed", 1, 24)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(252, 171, 105));
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1.png"))); // NOI18N
+        jButton2.setText("C");
+        jButton2.setFocusPainted(false);
+        jButton2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jButton2.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1.png"))); // NOI18N
+        jButton2.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1_presionar.png"))); // NOI18N
+        jPanel2.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, 50, 50));
+
+        jButton3.setFont(new java.awt.Font("Gill Sans Ultra Bold Condensed", 1, 14)); // NOI18N
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1.png"))); // NOI18N
+        jButton3.setText("( )");
+        jButton3.setFocusPainted(false);
+        jButton3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jButton3.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1.png"))); // NOI18N
+        jButton3.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1_presionar.png"))); // NOI18N
+        jPanel2.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 40, 50, 50));
+
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1.png"))); // NOI18N
+        jButton4.setText("jButton1");
+        jButton4.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1.png"))); // NOI18N
+        jButton4.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1_presionar.png"))); // NOI18N
+        jPanel2.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 40, 50, 50));
+
+        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1.png"))); // NOI18N
+        jButton5.setText("jButton1");
+        jButton5.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1.png"))); // NOI18N
+        jButton5.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1_presionar.png"))); // NOI18N
+        jPanel2.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 40, 50, 50));
+
+        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1.png"))); // NOI18N
+        jButton6.setText("jButton1");
+        jButton6.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1.png"))); // NOI18N
+        jButton6.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1_presionar.png"))); // NOI18N
+        jPanel2.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, 50, 50));
+
+        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1.png"))); // NOI18N
+        jButton7.setText("jButton1");
+        jButton7.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1.png"))); // NOI18N
+        jButton7.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1_presionar.png"))); // NOI18N
+        jPanel2.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 100, 50, 50));
+
+        jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1.png"))); // NOI18N
+        jButton9.setText("jButton1");
+        jButton9.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1.png"))); // NOI18N
+        jButton9.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1_presionar.png"))); // NOI18N
+        jPanel2.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 100, 50, 50));
+
+        jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1.png"))); // NOI18N
+        jButton11.setText("jButton1");
+        jButton11.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1.png"))); // NOI18N
+        jButton11.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1_presionar.png"))); // NOI18N
+        jPanel2.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 100, 50, 50));
+
+        jButton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1.png"))); // NOI18N
+        jButton13.setText("jButton1");
+        jButton13.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1.png"))); // NOI18N
+        jButton13.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1_presionar.png"))); // NOI18N
+        jPanel2.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 160, 50, 50));
+
+        jButton21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1.png"))); // NOI18N
+        jButton21.setText("jButton1");
+        jButton21.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1.png"))); // NOI18N
+        jButton21.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1_presionar.png"))); // NOI18N
+        jPanel2.add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 160, 50, 50));
+
+        jButton22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1.png"))); // NOI18N
+        jButton22.setText("jButton1");
+        jButton22.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1.png"))); // NOI18N
+        jButton22.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1_presionar.png"))); // NOI18N
+        jPanel2.add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 160, 50, 50));
+
+        jButton23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1.png"))); // NOI18N
+        jButton23.setText("jButton1");
+        jButton23.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1.png"))); // NOI18N
+        jButton23.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1_presionar.png"))); // NOI18N
+        jPanel2.add(jButton23, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 230, 50, 50));
+
+        jButton24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1.png"))); // NOI18N
+        jButton24.setText("jButton1");
+        jButton24.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1.png"))); // NOI18N
+        jButton24.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/btn1_presionar.png"))); // NOI18N
+        jPanel2.add(jButton24, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 160, 50, 50));
+
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 130, 340, 370));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -82,8 +202,24 @@ public class Calculadora extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton11;
+    private javax.swing.JButton jButton13;
     private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton21;
+    private javax.swing.JButton jButton22;
+    private javax.swing.JButton jButton23;
+    private javax.swing.JButton jButton24;
+    private javax.swing.JButton jButton25;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButton9;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JScrollBar jScrollBar1;
+    private javax.swing.JLabel txtOperacion;
+    private javax.swing.JLabel txtResultado;
     // End of variables declaration//GEN-END:variables
 }
